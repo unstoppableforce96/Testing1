@@ -99,7 +99,38 @@ $$A \oplus B$$
 
 <details>
   <summary> Video </summary>
-  
+
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/e_04ZrNroTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </details>
+
+<details>
+  <summary> Video2 </summary>
+
+  <video src="https://youtu.be/TJmTHuuYx3k" width=180/>
+
+</details>
+
+
+```plantuml
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.1.0
+skinparam defaultTextAlignment center
+!include ICONURL/common.puml
+!include ICONURL/font-awesome-5/gitlab.puml
+!include ICONURL/font-awesome-5/java.puml
+!include ICONURL/font-awesome-5/rocket.puml
+!include ICONURL/font-awesome/newspaper_o.puml
+FA_NEWSPAPER_O(news,good news!,node) #White {
+FA5_GITLAB(gitlab,GitLab.com,node) #White
+FA5_JAVA(java,PlantUML,node) #White
+FA5_ROCKET(rocket,Integrated,node) #White
+}
+gitlab ..> java
+java ..> rocket
+```
+
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
