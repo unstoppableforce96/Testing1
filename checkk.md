@@ -1,6 +1,6 @@
 # Some equations
-$$\sum_{n=1}^{\infty}\left( \frac{n \times (n + 1)}{2}\right)^2$$
-
+$$\left[\frac{n \times (n + 1)}{2}\right]^2$$
+$$A \oplus B$$
 ![Operators in C](OperatorsinC.jpg "Opertors")
 
 
@@ -25,7 +25,7 @@ $$\sum_{n=1}^{\infty}\left( \frac{n \times (n + 1)}{2}\right)^2$$
 <details> 
     <summary> Problems </summary>
 
-- [Alice and Array](https://www.codechef.com/problems/ALCARR)
+- <a href="https://www.codechef.com/problems/ALCARR" target="_blank">Click me</a>
 - [Split and Maximize](https://www.codechef.com/problems/SPLITMAX)
 - [String Game](https://www.codechef.com/problems/ABSTRING)
 - [Splitting Balls](https://www.codechef.com/problems/SPBALL)
@@ -96,3 +96,4 @@ $$\sum_{n=1}^{\infty}\left( \frac{n \times (n + 1)}{2}\right)^2$$
   ![Bubble Sort Technique](bbs.gif)
 
 </details>
+
